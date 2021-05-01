@@ -64,6 +64,8 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<script type="text/javascript">var submitted=false;</script>
+	<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://pooja2018.github.io/ankanawedsrachit/';}"></iframe>
 
 	</head>
 	<body>
@@ -99,12 +101,7 @@
 							<li><a href="index.html" >Home</a></li>
 							<li>
 								<a href="groom-bride.html" class="fh5co-sub-ddown">Groom &amp; Bride</a>
-								<ul class="fh5co-sub-menu">
-									<li><a href="#">Dropdown Menu 1</a></li>
-									<li><a href="#">Dropdown Menu 2</a></li>
-									<li><a href="#">Dropdown Menu 3</a></li>
-									<li><a href="#">Dropdown Menu 4</a></li>
-								</ul>
+
 							</li>
 							<li><a href="when-where.html">When &amp; Where</a></li>
 							<li><a href="guest.html">Guest</a></li>
@@ -175,27 +172,27 @@
 			<div class="container">
 				<div class="row animate-box">
 					<div class="col-md-8 col-md-offset-2 text-center heading-section">
-						<h2>Are You Attending?</h2>
-						<p>Please Fill-up the form to notify you that you're attending. Thanks.
+						<h2>Drop your blessings here.</h2>
+						<p>We look forward to your beautiful wishes. Thanks.</p>
 					</div>
 				</div>
 				<div class="row animate-box">
 					<div class="col-md-10 col-md-offset-1">
-						<form class="form-inline">
+						<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScekQapeBNHyzFwqFFAyNoVGZxAZt6uGUJ1FnWBgp2YRv44Ew/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="form-inline">
 							<div class="col-md-4 col-sm-4">
 								<div class="form-group">
 									<label for="name" class="sr-only">Name</label>
-									<input type="name" class="form-control" id="name" placeholder="Name">
+									<input type="name" class="form-control" id="Name" placeholder="Name" name="entry.1643404571">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-4">
 								<div class="form-group">
-									<label for="email" class="sr-only">Email</label>
-									<input type="email" class="form-control" id="email" placeholder="Email">
+									<label for="text" class="sr-only">Your Wishes</label>
+									<input type="text" class="form-control" id="Blessings" placeholder="Your Wishes" name="entry.2109366796">
 								</div>
 							</div>
 							<div class="col-md-4 col-sm-4">
-								<button type="submit" class="btn btn-primary btn-block">I am Attending</button>
+								<button type="submit" value="submit" class="btn btn-primary btn-block"> Submit
 							</div>
 						</form>
 					</div>
